@@ -9,7 +9,7 @@ env:
     AZURE_CONTAINER_REGISTRY: manifesttest01acr
     CHART_OVERRIDE_PATH: ./helloworld-chart/values.yaml
     CHART_OVERRIDES: |4
-        image.repository:manifesttest01acr.azurecr.io
+        image.repository:manifesttest01acr.azurecr.io/manifest22image
     CHART_PATH: ./helloworld-chart
     CLUSTER_NAME: manifesttest01
     CLUSTER_RESOURCE_GROUP: finaltestrg
